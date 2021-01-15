@@ -5,3 +5,6 @@ git config --global user.name "Your name"
 Initialize git:
 Go to the location of your folder/project from the terminal and type:
 git init
+git status
+git add fileNmae.extention
+git commit -m "Message you want to write while commiting the file"
