@@ -35,3 +35,5 @@ BRANCHING----------AND-------------MERGING
 git branch "branch name"
 --Checkout brnach
 git Checkout "branchname"
+--Push to the created branch
+git push -u origin newBranch
