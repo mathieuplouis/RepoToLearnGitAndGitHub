@@ -13,3 +13,25 @@ create a new file in the folder and make a change in the existing file
 --do a git staus
 You can use wild card like : *.*, *.txt, .
 
+Create a remote repository on GitHub:
+-Click on the + sign from the right corner
+-Choose New Repository
+-Give a name
+-click create Repository
+-Copy your fresh created Repository url and go to your terminal and type the command
+git remote add origin  "The location of your repository (the url)"
+example
+git remote add origin https://github.com/mathieuplouis/RepoToLearnGitAndGitHub.git
+Push to the master branch:
+git push -u origin master
+ See the log of what you have done.
+git log 
+
+for all options
+git --help
+
+BRANCHING----------AND-------------MERGING
+--Create a bran
+git branch "branch name"
+--Checkout brnach
+git Checkout "branchname"
