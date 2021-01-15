@@ -1,0 +1,7 @@
+Add emails and username to git:
+git config --global user.email "Your email"
+git config --global user.name "Your name"
+
+Initialize git:
+Go to the location of your folder/project from the terminal and type:
+git init
