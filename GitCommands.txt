@@ -8,3 +8,8 @@ git init
 git status
 git add fileNmae.extention
 git commit -m "Message you want to write while commiting the file"
+------------------------------------------------------------------
+create a new file in the folder and make a change in the existing file 
+--do a git staus
+You can use wild card like : *.*, *.txt, .
+
