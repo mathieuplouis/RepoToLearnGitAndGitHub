@@ -37,3 +37,28 @@ git branch "branch name"
 git Checkout "branchname"
 --Push to the created branch
 git push -u origin newBranch
+--Check out the master branch before merging
+git checkout master
+--merge the branch 
+git merge branchName
+then do: 
+git push -u origin master
+--Delete a branch only in my local
+git branch -d "branchname"
+--delete a branch from remote Repository
+git push origin --delete "branch name"
+
+---------------------Enable Email Trigger whenever there is change to the project----------------------
+Step1: Go to GitHub Choose your Repository
+--Settings
+-- Integration & Servives or Notifications 
+-- Add Service-start typing email to get email option
+--click on Email
+--Add the email address
+--check Send From Author
+--Add Service 
+Step2: Test and Validate by making some change to your project
+
+
+
+
